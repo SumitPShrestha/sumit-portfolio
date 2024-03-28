@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/app/common/components/footer/footer.component.html",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1710923558064,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1710923558064,
+            "name": "Commit-0",
+            "content": "<footer class=\"bg-gradient-to-r from-pink-500 to-purple-500 text-white p-4\">\n    <p class=\"text-center\">\n        &copy;  My Website. All rights reserved.\n    </p>\n</footer>"
+        }
+    ]
+}

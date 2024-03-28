@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/app/app-routing.module.ts",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1710924926669,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1710925015580,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n import { RouterModule, Routes } from '@angular/router';\n import { HeroSectionComponent } from './common/components/hero-section/hero-section.component';\n \n const routes: Routes = [\n-  {component:HeroSectionComponent,path:'/'}\n+  { component: HeroSectionComponent, path: '' }\n ];\n \n @NgModule({\n   imports: [RouterModule.forRoot(routes)],\n"
+                }
+            ],
+            "date": 1710924926669,
+            "name": "Commit-0",
+            "content": "import { NgModule } from '@angular/core';\nimport { RouterModule, Routes } from '@angular/router';\nimport { HeroSectionComponent } from './common/components/hero-section/hero-section.component';\n\nconst routes: Routes = [\n  {component:HeroSectionComponent,path:'/'}\n];\n\n@NgModule({\n  imports: [RouterModule.forRoot(routes)],\n  exports: [RouterModule]\n})\nexport class AppRoutingModule { }\n"
+        }
+    ]
+}
